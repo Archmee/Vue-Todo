@@ -11,6 +11,7 @@
 4. ctrl + c 结束运行
 
 ## 在线访问
+[链接](https://archmee.github.io/demo/show/ife_task_5/)和扫码
 <img src="https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/image170929/vue-todo.png" alt="" />
 
 ## 运行截图
