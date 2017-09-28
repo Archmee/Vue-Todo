@@ -2,7 +2,7 @@
 
 这个任务管理工具Vue-Todo和[IFE任务5](https://github.com/Archmee/IFE-2015-Spring-Task/tree/master/ife_task_5)的功能和界面都是完全一样的，只是这里使用了Vue2来实现，当时还没有学习Vue全家桶就开始开发，所以除了Vue外，还是使用Gulp和RequireJs。
 
-效果展示 [点这里](https://archmee.github.io/demo/show/ife_task_5)，由于该项目并不是完全Vue开发，所以发布还需要安装一些gulp插件，个人觉得麻烦就省略了，反正效果和IFE任务5一样，当然，在本地是完全可以运行的。
+效果展示 [点这里](https://archmee.github.io/demo/show/ife_task_5)，由于该项目是gulp打包发布，还需要安装一些插件，个人觉得麻烦就省略了，反正效果和IFE任务5一样，当然，在本地是完全可以运行的。
 
 想要在本地运行项目的话
 1. npm install
