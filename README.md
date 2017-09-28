@@ -11,8 +11,8 @@
 4. ctrl + c 结束运行
 
 ## 运行截图
-PC端
-<img src="https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/gitblog/images/201704080055.png" style="display:block;"/>
+### PC端
+<img src="https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/gitblog/images/201704080055.png"/>
 	
-移动端
-<img src="https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/gitblog/images/201704080055.gif" style="display:block;"/>
+### 移动端
+<img src="https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/gitblog/images/201704080055.gif"/>
