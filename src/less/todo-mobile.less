@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@import "def.less";
+
+#header {
+    .hori-center();
+}
+time,
+button,
+.item,
+#detail .content,
+#detail .title,
+#detail input,
+#detail textarea {
+    font-size: 1rem;
+}
+/*翻页时的返回按钮*/
+.icon-back {
+    .abpos(0, auto, auto, 0);
+    .hori-center();
+    width: 50px;
+    font-size: 1.6rem;
+
+}
+
+.page {
+    .trans(.4s, .1s);
+}
+.page-prev {
+    .anim-page(-100%);
+}
+.page-active {
+    .anim-page(0);
+}
+.page-next {
+    .anim-page(100%);
+}
+
+#menu,
+#list,
+#detail {
+    left: 0;
+    right: 0;
+    height: auto;
+    width: @full-width;
+    .border(left, 1px solid #BBB);
+}
+
+.footer {
+    height: 70px;
+    .btn-add {
+        .block();
+        .screen(60px, 60px);
+        .border-radius(50%);
+        margin: 0 auto;
+        font-size: 0;
+
+        &:before {
+            content: '+';
+            display: inline;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+}
+
+#detail {
+    .td-head,
+    .td-date,
+    .td-desc {
+        padding-left: 15px;
+    }
+    .td-date .warning {
+        display: none;
+    }
+}
+

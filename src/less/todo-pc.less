@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+@import "def.less";
+
+#header {
+    padding-left: 20px;
+}
+
+/*针对设备布局*/
+#menu {
+    width: 30%;
+    left: 0;
+}
+#list {
+    width: 30%;
+    left: 30%;
+}
+#detail {
+    width: 40%;
+    left: 60%;
+    right: 0;
+}
+
+
+/*中等字体*/
+time,
+button,
+.item,
+#detail .title,
+#detail .content,
+#detail input,
+#detail textarea {
+    font-size: .96rem;
+}
+#list time {
+    font-size: .9rem;
+}
+
+.icon-back {
+    display: none;
+}
+.footer {
+    height: 50px;
+    button {
+        .screen();
+    }
+}
+.footer .btn-add:before {
+    .block();
+    .eq-height(20px);
+    content: '+';
+    float: left;
+    width: 20px;
+    text-indent: 30%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer {
+    .btns,
+    .btns .btns-inner {
+        .block();
+    }
+}
+
+#edit-btns button,
+#save-btns button {
+    margin: 0;
+    box-shadow: none;
+    .border-radius(0);
+}
+#save-btns button {
+    width: 50%;
+}
+

@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@full-width: 100%;
+@full-height: 100%;
+
+@basic-color: #555;
+
+@head-height: 60px;
+
+@row-height: 34px;
+
+@time-bgc: #FAFAEE;
+
+
+.color(@c) {
+    color: @c;
+}
+.screen(@w: 100%, @h: 100%) {
+    width: @w;
+    height: @h;
+}
+.block() {
+    display: block;
+}
+.ofhidden() {
+    overflow: hidden;
+}
+.text-ellipsis() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nowrap() {
+    white-space: nowrap;
+}
+.hori-center() {
+    text-align: center;
+}
+.pointer() {
+    cursor: pointer;
+}
+.user-select-none() {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.abpos(@t: 0, @r: 0, @b: 0, @l: 0) {
+    position: absolute;
+    top: @t;
+    right: @r;
+    bottom: @b;
+    left: @l;
+}
+
+.eq-height(@h) {
+    height: @h;
+    line-height: @h;
+}
+
+.border(left, @str: 1px solid #CCC) {
+    border-left: @str;
+}
+.border(right, @str: 1px solid #CCC) {
+    border-right: @str;
+}
+.border(top, @str: 1px solid #CCC) {
+    border-top: @str;
+}
+.border(bottom, @str: 1px solid #CCC) {
+    border-bottom: @str;
+}
+.border(both, @str: 1px solid #CCC) {
+    border: @str;
+}
+
+.box-sizing(@type) {
+    -webkit-box-sizing: @type;
+       -moz-box-sizing: @type;
+            box-sizing: @type;
+}
+
+.border-radius(@tl, @tr, @bl, @br) {
+    border-radius: @arguments;
+}
+.border-radius(tl, @c) {
+    border-top-left-radius: @c;
+}
+.border-radius(tr, @c) {
+    border-top-right-radius: @c;
+}
+.border-radius(bl, @c) {
+    border-bottom-left-radius: @c;
+}
+.border-radius(br, @c) {
+    border-bottom-right-radius: @c;
+}
+.border-radius(@corner) {
+    border-radius: @corner;
+}
+
+.trans(@dur, @delay) {
+    -webkit-transition: -webkit-transform @dur ease-in-out @delay;
+       -moz-transition: -moz-transform @dur ease-in-out @delay;
+        -ms-transition: -ms-transform @dur ease-in-out @delay;
+         -o-transition: -o-transform @dur ease-in-out @delay;
+            transition: transform @dur ease-in-out @delay;
+}
+.anim-page(@x: 0) {
+    -webkit-transform: translate3d(@x, 0, 0);
+       -moz-transform: translate3d(@x, 0, 0);
+        -ms-transform: translate3d(@x, 0, 0);
+         -o-transform: translate3d(@x, 0, 0);
+            transform: translate3d(@x, 0, 0);
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+#header {
+    padding-left: 20px;
+}
+
+/*中等字体*/
+time,
+.item,
+button,
+#detail .title,
+#detail input,
+#detail textarea {
+    font-size: .96rem;
+}
+#list time {
+    font-size: .9rem;
+}
+
+.icon-back {
+    display: none;
+}
+
+/*针对设备布局*/
+#menu {
+    width: 30%;
+    left: 0;
+}
+#list {
+    width: 30%;
+    left: 30%;
+}
+#detail {
+    width: 40%;
+    /*left: 60%;*/
+    right: 0;
+}
+
+
+/*两个底部按钮图标*/
+.footer {
+    height: 50px;
+}
+/* 底部按钮 */
+.footer button {
+    height: 100%;
+    width: 100%;
+}
+
+/*按钮的+号标记*/
+.footer .btn-add:before {
+    content: '+';
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 30%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*详情页面的编辑按钮组，这里虽然使用了左边两个区域底部的按钮样式，但是由于适配移动端不一样的样式所以采用了.btns包装类，但是会影响表现，所以这里重点是从btns包装容器相关类上移出移出已有样式从而采用footer类下的样式，这样做有点坑*/
+.footer .btns {
+    display: block;
+}
+.footer .btns .btns-inner {
+    display: block;
+}
+#edit-btns button,
+#save-btns button {
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+#save-btns button {
+    width: 50%;
+}
+/*为了在pc端更好的交互把取消和保存按钮交换位置*/
+/*#save-btns .cancel {
+    float: right;
+}
+#save-btns .save {
+    float: left;
+}*/
+
+#show-info {
+    width: 40%;
+    margin: 0 30%;
+}
